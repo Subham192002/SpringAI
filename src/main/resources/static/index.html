@@ -112,7 +112,7 @@
         input.value = "";
 
         // Call Spring Boot backend
-        let res = await fetch("/chat", {
+        let res = await fetch("/ask", {
             method: "POST",
             body: userMsg,
             headers: { "Content-Type": "text/plain" }
